@@ -1,0 +1,6 @@
+{
+  "port":"8081",
+  "databaseName":"mysql",
+  "databaseURL":"test:password@tcp(localhost:3306)/xxx",
+  "setUpDatabase":"create"
+}
