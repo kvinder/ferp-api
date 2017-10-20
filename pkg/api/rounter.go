@@ -16,7 +16,6 @@ func NewRouter() rest.App {
 
 func NewAPI(router rest.App) (api *rest.Api) {
 	api = rest.NewApi()
-	api.Use(rest.DefaultDevStack...)
 
 	allowedMethods := []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"}
 	allowedHeaders := []string{
